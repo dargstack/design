@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" aria-label="dargstack mark">
-  <rect x="8" y="34" width="48" height="14" rx="1.5" fill="#b9c2c9"/>
-  <rect x="20" y="16" width="36" height="14" rx="1.5" fill="#3b6c9e"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" aria-label="dargstack mark" viewBox="0 0 64 64"><rect width="48" height="14" x="8" y="34" fill="#b9c2c9" rx="1.5"/><rect width="36" height="14" x="20" y="16" fill="#3b6c9e" rx="1.5"/></svg>
