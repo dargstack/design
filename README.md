@@ -45,6 +45,8 @@ Never "DargStack", "Dargstack", or "darg-stack". Never italic. Never letterspace
 
 Status: ok `#6FAE82`, warn `#D3A758`, error `#CF8B7C`, dim `#6B767E`
 
+On paper (light mode): background `#E8EAEC`, text `#0E1113`, dim text `#4A5560`, mark per `dargstack-mark-inverted`.
+
 ## Type
 
 - **IBM Plex Mono**: wordmark, code, labels, all CLI surfaces
@@ -64,5 +66,8 @@ No adjectives it can't prove.
 
 | File | Size | Use |
 | --- | --- | --- |
-| `dargstack-readme-header.png` | 1280x320 | README header |
+| `dargstack-readme-header.png` | 1280x320 | README header, dark mode |
+| `dargstack-readme-header-light.png` | 1280x320 | README header, light mode (paper background, inverted mark) |
 | `dargstack-social-card.png` | 1280x640 | Social card / OpenGraph image |
+
+Pair the two header variants behind a `<picture>` element with `prefers-color-scheme` media queries so the README header switches automatically with the reader's OS/browser theme.
