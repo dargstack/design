@@ -12,11 +12,11 @@ The mark shows exactly two levels. Development is the base bar, sitting in the d
 
 ## Mark
 
-| File | Use |
-| --- | --- |
-| `dargstack-mark-primary.svg` / `.png` | Default, on dark/graphite backgrounds |
-| `dargstack-mark-inverted.svg` / `.png` | On paper/light backgrounds |
-| `dargstack-mark-monotone.svg` / `.png` | Single tone (uses `currentColor` in the SVG), for stamps and favicons below 24px |
+| | File | Use |
+| --- | --- | --- |
+| <img src="dargstack-mark-primary.png" width="64" height="64" alt="primary mark"> | `dargstack-mark-primary.svg` / `.png` | Default, on dark/graphite backgrounds |
+| <img src="dargstack-mark-inverted.png" width="64" height="64" alt="inverted mark"> | `dargstack-mark-inverted.svg` / `.png` | On paper/light backgrounds |
+| (renders in the surrounding text color) | `dargstack-mark-monotone.svg` / `.png` | Single tone (uses `currentColor` in the SVG), for stamps and favicons below 24px |
 
 ### Construction
 
@@ -63,6 +63,14 @@ Direct, technical, unhurried. State the mechanism, then the consequence. Full se
 No adjectives it can't prove.
 
 ## Social assets
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dargstack-readme-header.png">
+  <source media="(prefers-color-scheme: light)" srcset="dargstack-readme-header-light.png">
+  <img alt="dargstack: ship the diff, skip the myth" src="dargstack-readme-header.png">
+</picture>
+
+![dargstack social card](dargstack-social-card.png)
 
 | File | Size | Use |
 | --- | --- | --- |
