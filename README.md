@@ -45,7 +45,7 @@ Never "DargStack", "Dargstack", or "darg-stack". Never italic. Never letterspace
 
 Status: ok `#6FAE82`, warn `#D3A758`, error `#CF8B7C`, dim `#6B767E`
 
-On paper (light mode): background `#E8EAEC`, text `#0E1113`, dim text `#4A5560`, mark per `dargstack-mark-inverted`.
+On paper (light mode): background `#FFFFFF`, text `#0E1113`, dim text `#4A5560`, mark per `dargstack-mark-inverted`.
 
 ## Type
 
